@@ -5,7 +5,8 @@ module.exports = {
             "./src/pomodoro.html",
             "./src/testimonial.html",
             "./src/pricingTable.html",
-            "./src/preferencesForm.html"
+            "./src/preferencesForm.html",
+            "./src/404Page.html"
             ],
   theme: {
     extend: {},
