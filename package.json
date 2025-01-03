@@ -5,7 +5,10 @@
     "tailwindcss": "^3.4.17"
   },
   "scripts": {
-    "build:css": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d .",
+    "dev": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch",
+    "build": "tailwindcss -i ./src/styles.css -o ./dist/styles.css --minify"
   }
 
 }
