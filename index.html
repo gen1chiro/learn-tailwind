@@ -6,12 +6,41 @@
     <link rel="stylesheet" href="./dist/styles.css">
     <title>Title</title>
 </head>
-<body>
-    <h1 class="text-black font-black font-sans">Test</h1>
-    <a href="./pomodoro.html" target="_blank">WOW</a>
-    <a href="./testimonial.html" target="_blank">WOW</a>
-    <a href="./pricingTable.html" target="_blank">WOW</a>
-    <a href="./preferencesForm.html" target="_blank">WOW</a>
-    <a href="./404Page.html" target="_blank">WOW</a>
+<body class="h-screen w-screen flex flex-col justify-start items-center gap-4 box-border font-sans">
+    <div class="absolute inset-0 -z-10 h-screen w-screen bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"></div>
+    <header class="w-11/12 xl:w-[1200px] mt-8 text-gray-700">
+        <h1 class="text-4xl font-bold">Tailwind Practice Projects</h1>
+        <p class="mb-4"><span class="font-bold">Note: </span>These projects are design-only and do not include functional features. They are created for practice and visual demonstration purposes.</p>
+    </header>
+    <main class="flex flex-wrap items-center justify-center gap-y-8 gap-x-4 w-11/12 xl:w-[1200px] bg-slate-50 shadow-lg rounded-lg py-8">
+        <a class="w-5/6 sm:w-96 p-4 rounded-lg bg-white shadow-md hover:shadow-lg hover:scale-105 transition ease-in" href="./pomodoro.html" target="_blank">
+            <img class="aspect-video w-full object-cover rounded-md opacity-70 hover:opacity-100" src="./src/img/pomodoro.png" alt="pomodoro"/>
+            <h1 class="text-xl font-semibold">Pomodoro Timer</h1>
+            <p>A simple timer for focus and productivity using the Pomodoro technique.</p>
+        </a>
+        <a class="w-5/6 sm:w-96 p-4 rounded-lg bg-white shadow-md hover:scale-105 transition ease-in" href="./testimonial.html" target="_blank">
+            <img class="aspect-video w-full object-cover rounded-md opacity-70 hover:opacity-100" src="./src/img/testimonial.png" alt="testimonial page"/>
+            <h1 class="text-xl font-semibold">Testimonial Page</h1>
+            <p>A showcase of user testimonials styled for visual appeal.</p>
+        </a>
+        <a class="w-5/6 sm:w-96 p-4 rounded-lg bg-white shadow-md hover:scale-105 transition ease-in" href="./pricingTable.html" target="_blank">
+            <img class="aspect-video w-full object-cover rounded-md opacity-70 hover:opacity-100" src="./src/img/pricing.png" alt="pricing table"/>
+            <h1 class="text-xl font-semibold">Pricing Table</h1>
+            <p>A pricing comparison layout for different subscription plans.</p>
+        </a>
+        <a class="w-5/6 sm:w-96 p-4 rounded-lg bg-white shadow-md hover:scale-105 transition ease-in" href="./preferencesForm.html" target="_blank">
+            <img class="aspect-video w-full object-cover rounded-md opacity-70 hover:opacity-100" src="./src/img/preferences.png" alt="preferences form"/>
+            <h1 class="text-xl font-semibold">Preferences Form</h1>
+            <p>A form for collecting user preferences and input details.</p>
+        </a>
+        <a class="w-5/6 sm:w-96 p-4 rounded-lg bg-white shadow-md hover:scale-105 transition ease-in" href="./404Page.html" target="_blank">
+            <img class="aspect-video w-full object-cover rounded-md opacity-70 hover:opacity-100" src="./src/img/404.png" alt="404 page"/>
+            <h1 class="text-xl font-semibold">404 Page</h1>
+            <p>A creative "Page Not Found" design with a helpful navigation suggestion.</p>
+        </a>
+    </main>
+    <footer>
+        <h1>Designed & Developed by Jul Leo Javellana</h1>
+    </footer>
 </body>
 </html>
